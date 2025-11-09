@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function HooksExample() {
-  // Declare a state variable called 'count' with initial value 0
   const [count, setCount] = useState(0);
 
   return (
